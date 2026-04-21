@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "TRIXICORT-40",
+    "category": "Injectables",
+    "composition": "Triamcinolone Acetonide Injection IP 40 mg",
+    "description": "A potent corticosteroid used for anti-inflammatory and immunosuppressive therapy.",
+    "longDescription": "TRIXICORT-40 contains Triamcinolone Acetonide, a strong steroid that reduces inflammation in the body. It is used to treat a variety of conditions such as allergic disorders, skin conditions, ulcerative colitis, arthritis, lupus, psoriasis, or breathing disorders.",
+    "packSize": "1 Vial",
+    "form": "Injectable Solution",
+    "usage": "Relief of severe inflammatory conditions, allergic disorders & arthritis.",
+    "image": "/products/trixicort.png"
+  },
+  {
+    "id": 2,
+    "name": "ORKETRIX",
+    "category": "Injectables",
+    "composition": "Ofloxacin & Ornidazole Infusion",
+    "description": "A combination medication used in the treatment of bacterial and parasitic infections.",
+    "longDescription": "ORKETRIX is a broad-spectrum antibiotic infusion effective against a wide range of aerobic, anaerobic bacteria and protozoa. It is particularly indicated for mixed intra-abdominal infections, pelvic inflammatory disease, and severe diarrhea of mixed origin.",
+    "packSize": "100 ml",
+    "form": "I.V. Infusion",
+    "usage": "Treatment of severe bacterial and parasitic infections.",
+    "image": "/products/orketrix.png"
+  },
+  {
+    "id": 3,
+    "name": "NOVACEF-1.5",
+    "category": "Injectables",
+    "composition": "Ceftriaxone Injection IP 1.5 gm",
+    "description": "Broad-spectrum antibiotic used to treat bacterial infections.",
+    "longDescription": "NOVACEF-1.5 is used to treat a wide variety of bacterial infections, including severe or life-threatening forms such as meningitis. It belongs to the cephalosporin class of antibiotics.",
+    "packSize": "1 Vial",
+    "form": "Dry Powder Injection",
+    "usage": "Respiratory tract infections, urinary tract infections, meningitis.",
+    "image": "/products/novacef.png"
+  },
+  {
+    "id": 4,
+    "name": "RABZE-DSR",
+    "category": "Tablets & Capsules",
+    "composition": "Rabeprazole Sodium (Enteric Coated) & Domperidone (Sustained Release) Capsules",
+    "description": "Used for treatment of GERD and peptic ulcer disease.",
+    "longDescription": "RABZE-DSR is a combination of a proton pump inhibitor and a prokinetic agent. It decreases the amount of acid produced in the stomach and improves motility of the stomach and intestines.",
+    "packSize": "10 x 10 Alu-Alu",
+    "form": "Capsules",
+    "usage": "Treatment of gastroesophageal reflux disease (GERD).",
+    "image": "/products/rabze.png"
+  },
+  {
+    "id": 5,
+    "name": "NOVACET-P",
+    "category": "Syrups & Suspensions",
+    "composition": "Paracetamol Oral Suspension IP",
+    "description": "Analgesic and antipyretic for pediatric use.",
+    "longDescription": "NOVACET-P is an effective pain reliever and fever reducer specifically formulated for children. It acts centrally on the brain to elevate the pain threshold and reduce fever.",
+    "packSize": "60 ml Bottle",
+    "form": "Suspension",
+    "usage": "Relief from fever and mild to moderate pain.",
+    "image": "/products/novacet.png"
+  },
+  {
+    "id": 6,
+    "name": "NOVAVIT PLUS",
+    "category": "Syrups & Suspensions",
+    "composition": "Multivitamin & Multimineral Syrup",
+    "description": "Comprehensive nutritional supplement.",
+    "longDescription": "NOVAVIT PLUS provides essential vitamins and minerals required for the healthy growth and development of children and as a restorative tonic for adults of all ages.",
+    "packSize": "200 ml Bottle",
+    "form": "Syrup",
+    "usage": "Dietary supplement for general debility and convalescence.",
+    "image": "/products/novavit.png"
+  }
+]

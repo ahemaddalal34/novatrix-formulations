@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0ea5e9;
+  --color-secondary: #0284c7;
+  --color-accent: #2563eb;
+  --color-background-dark: #0f172a;
+  
+  --font-heading: "Onest", sans-serif;
+  --font-body: "Onest", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-body text-slate-800 bg-white antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-medium tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
