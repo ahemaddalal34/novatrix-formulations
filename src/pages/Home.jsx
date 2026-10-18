@@ -45,7 +45,7 @@ const Home = () => {
             <span className="px-3 md:px-4 py-1.5 bg-white border border-slate-200 text-slate-700 rounded-full text-xs font-semibold shadow-sm tracking-wide">ISO 9001:2015</span>
           </motion.div>
           <motion.h2 variants={fadeUp} initial="hidden" animate="visible" className="text-4xl md:text-6xl font-heading font-bold mb-6 tracking-tight text-slate-900 leading-[1.1]">
-            Innovating Healthcare.<br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-600">Empowering Lives.</span>
+            <h1>Innovating Healthcare.<br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-600">Empowering Lives.</span></h1>
           </motion.h2>
           <motion.p variants={fadeUp} initial="hidden" animate="visible" className="text-slate-600 text-lg md:text-xl font-light mb-10 max-w-xl leading-relaxed">
             Delivering high-quality pharmaceutical solutions worldwide with a commitment to innovation, safety, and excellence.
