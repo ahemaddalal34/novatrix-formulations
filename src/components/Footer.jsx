@@ -26,23 +26,35 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="font-heading font-bold text-lg mb-6 text-slate-900">Quick Links</h4>
-            <ul className="space-y-3">
-              {['Home', 'About Us', 'Products', 'Franchise', 'Certifications'].map((link) => (
-                <li key={link}>
-                  <NavLink
-                    to={link === 'Home' ? '/' : `/${link.toLowerCase().replace(' ', '-')}`}
-                    className="text-sm text-slate-500 hover:text-primary transition-colors flex items-center gap-2 group"
-                  >
-                    <div className="w-1 h-1 rounded-full bg-slate-300 group-hover:bg-primary transition-colors"></div>
-                    {link}
-                  </NavLink>
-                </li>
-              ))}
-            </ul>
-          </div>
+          
+{/* Quick Links */}
+<div>
+  <h4 className="font-heading font-bold text-lg mb-6 text-slate-900">
+    Quick Links
+  </h4>
+
+  <ul className="space-y-3">
+    {[
+      { label: 'Home', path: '/' },
+      { label: 'About Us', path: '/about' },
+      { label: 'Products', path: '/products' },
+      { label: 'Franchise', path: '/franchise' },
+      { label: 'Certifications', path: '/certifications' },
+      { label: 'Contact', path: '/contact' },
+    ].map((link) => (
+      <li key={link.path}>
+        <NavLink
+          to={link.path}
+          className="text-sm text-slate-500 hover:text-primary transition-colors flex items-center gap-2 group"
+        >
+          <div className="w-1 h-1 rounded-full bg-slate-300 group-hover:bg-primary transition-colors" />
+          {link.label}
+        </NavLink>
+      </li>
+    ))}
+  </ul>
+</div>
+
 
           {/* Products */}
           <div>

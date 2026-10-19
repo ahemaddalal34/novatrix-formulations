@@ -44,9 +44,9 @@ const Home = () => {
             <span className="px-3 md:px-4 py-1.5 bg-slate-900 text-white rounded-full text-xs font-semibold tracking-wide shadow-sm flex items-center gap-2"><ShieldCheck className="w-3 h-3 text-emerald-400" /> WHO-GMP Certified</span>
             <span className="px-3 md:px-4 py-1.5 bg-white border border-slate-200 text-slate-700 rounded-full text-xs font-semibold shadow-sm tracking-wide">ISO 9001:2015</span>
           </motion.div>
-          <motion.h2 variants={fadeUp} initial="hidden" animate="visible" className="text-4xl md:text-6xl font-heading font-bold mb-6 tracking-tight text-slate-900 leading-[1.1]">
-            <h1>Innovating Healthcare.<br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-600">Empowering Lives.</span></h1>
-          </motion.h2>
+          <motion.h1 variants={fadeUp} initial="hidden" animate="visible" className="text-4xl md:text-6xl font-heading font-bold mb-6 tracking-tight text-slate-900 leading-[1.1]">
+            Innovating Healthcare.<br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-600">Empowering Lives.</span>
+          </motion.h1>
           <motion.p variants={fadeUp} initial="hidden" animate="visible" className="text-slate-600 text-lg md:text-xl font-light mb-10 max-w-xl leading-relaxed">
             Delivering high-quality pharmaceutical solutions worldwide with a commitment to innovation, safety, and excellence.
           </motion.p>
@@ -73,10 +73,10 @@ const Home = () => {
             <motion.div variants={fadeUp} className="px-4 py-1.5 rounded-full border border-slate-200 bg-white shadow-sm mb-6 hover:bg-slate-50 transition-colors">
               <span className="text-xs font-semibold tracking-wider text-primary uppercase">Top Pharma Manufacturer in India</span>
             </motion.div>
-            <motion.h1 variants={fadeUp} className="text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-slate-900 leading-[1.1] mb-6 tracking-tight text-balance">
+            <motion.h2 variants={fadeUp} className="text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-slate-900 leading-[1.1] mb-6 tracking-tight text-balance">
               Pioneering Clinical<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan-500">Excellence Globally.</span>
-            </motion.h1>
+            </motion.h2>
             <motion.p variants={fadeUp} className="text-lg text-slate-600 mb-10 max-w-lg font-light leading-relaxed">
               Partner with India's leading WHO-GMP certified pharmaceutical manufacturer. We specialize in premium <strong className="text-slate-900 font-medium">Third-Party Manufacturing</strong> and monopoly-based <strong className="text-slate-900 font-medium">PCD Pharma Franchises</strong> to elevate healthcare access nationwide.
             </motion.p>
